@@ -1,0 +1,122 @@
+/*--------------rest------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    text-decoration: none;
+    color: currentColor;
+    list-style-type: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+/*-------------utility-------------*/
+
+.bg-black {
+    background-color: black;
+}
+.bg-grey {
+    background-color: #222222;
+}
+.bg-light-grey {
+    background-color: #4A4A4A;
+}
+.debug {
+    border: 2px solid transparent;
+}
+.flex {
+    display: flex;
+}
+.justify-betwen {
+    justify-content: space-between;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+
+/*---------------- main ----------------*/
+
+.mg-top {
+    padding-top: 5%;
+}
+.mg-x {
+    margin: 0 3%;
+}
+.pt-y {
+    padding-top: 5px;
+}
+.row {
+    width: calc((100% / 7) - 5px);
+}
+image {
+    
+    margin: 5px 0;
+}
+.mic {
+    background-color: rgba(211, 211, 211, 0.389);
+    color: white;
+    bottom: 10px;
+    padding: 3px 3px;
+    z-index: 2;
+    font-size: 12px;
+}
+.full-screen {
+    top: 15px;
+    right: 10px;
+}
+.full-screen > span{
+    color: white;
+    background-color: rgba(211, 211, 211, 0.595);
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 0 5px;
+}
+
+
+
+
+
+/*-----------------footer------------ */
+
+footer .flex {
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.icon {
+    color: white;
+    margin: 0 15px;
+    font-size: 25px;
+    
+}
+.icon-green {
+    color: green;
+}
+.icon > div {
+    font-size: 14px;
+    
+}
+
+.end-call > a {
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    padding: 0 10px;
+}
+.end-call {
+    height: 100%;
+    
+}
+.arrow {
+    color: white;
+    transform: rotate(180deg);
+    font-size: 10px;
+}
